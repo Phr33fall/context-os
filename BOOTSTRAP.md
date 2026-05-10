@@ -85,3 +85,29 @@ If the fresh assistant can continue without guessing, ContextOS is working.
 - letting the assistant write to live systems without approval
 
 Start small. Prove the handover loop. Improve from there.
+
+## Common Failure Modes
+
+- Empty search is not proof of absence.
+- Memory retrieval is not current state.
+- A clean commit does not explain business context.
+- A handover without a next action is incomplete.
+- If two sources disagree, stop and flag the conflict.
+- If the assistant races ahead without confirmation, stop it. Momentum is not permission.
+- Do not let the assistant write to live systems until the proposed update is approved.
+
+## Simple Maintenance Rhythm
+
+Weekly:
+
+- review the latest handovers
+- check whether the source-of-truth map still matches reality
+- archive or close stale sessions
+- capture one lesson learned
+
+Monthly:
+
+- review tool roles
+- remove unused automation
+- check restricted-material boundaries
+- test whether a fresh assistant can restart from the latest handover

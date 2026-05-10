@@ -2,6 +2,13 @@
 
 All notable changes to ContextOS will be documented here.
 
+## v0.1.2 - 2026-05-10
+
+Added:
+
+- common failure modes to `BOOTSTRAP.md`
+- simple weekly and monthly maintenance rhythm
+
 ## v0.1.1 - 2026-05-10
 
 Added:
