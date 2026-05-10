@@ -145,8 +145,11 @@ ContextOS is designed around roles, sources of truth, handovers, boundaries, and
 |---|---|
 | [`docs/architecture.md`](docs/architecture.md) | Role map, read sequence, and handoff flow |
 | [`docs/safety-model.md`](docs/safety-model.md) | Exclusion-first boundary model for restricted material |
-| [`docs/setup-notes.md`](docs/setup-notes.md) | Minimal setup notes for adapting the pattern |
 | [`INSTALL.md`](INSTALL.md) | Practical install and adaptation guide |
+| [`CHANGELOG.md`](CHANGELOG.md) | Version history |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md) | Contribution guidance |
+| [`LICENSE`](LICENSE) | MIT license |
+| [`docs/setup-notes.md`](docs/setup-notes.md) | Minimal setup notes for adapting the pattern |
 | [`templates/session-handover.md`](templates/session-handover.md) | Durable handover template for AI sessions |
 | [`templates/source-of-truth-map.md`](templates/source-of-truth-map.md) | Template for defining what each system owns |
 | [`examples/session-handover-example.md`](examples/session-handover-example.md) | Example handover showing the expected output |
@@ -194,7 +197,7 @@ Useful starting points:
 - [OpenAI Codex](https://openai.com/codex) - independent coding, review, and implementation workflows.
 - [Git](https://git-scm.com/) - distributed version control and change history.
 - [claude-mem](https://github.com/thedotmack/claude-mem) - persistent Claude Code memory and context retrieval.
-- [Graphify](https://graphify.net/hk/) - knowledge graph extraction for code, docs, diagrams, and AI coding assistants.
+- [Graphify](https://github.com/safishamsi/graphify) - graph-based knowledge extraction and navigation.
 
 ContextOS is not affiliated with or endorsed by these projects.
 
@@ -215,7 +218,38 @@ It is an operating pattern for combining them with clearer boundaries, handovers
 
 ## Quickstart
 
-Start by asking your AI assistant to audit your current workflow.
+### 60-Second Start
+
+Copy this into your AI assistant first:
+
+```text
+I want to try ContextOS.
+
+Audit my current AI workflow and produce:
+- a source-of-truth map
+- a handover location
+- restricted-material boundaries
+- a session-end checklist
+- the first setup step
+
+Ask only the questions you need answered. Keep it simple enough that I will actually use it.
+```
+
+Then copy these into your setup:
+
+- [`skills/context-os.md`](skills/context-os.md)
+- [`templates/session-handover.md`](templates/session-handover.md)
+- [`templates/source-of-truth-map.md`](templates/source-of-truth-map.md)
+
+The success test is simple:
+
+```text
+Another assistant should be able to read the latest handover and continue without guessing.
+```
+
+### Full Setup Prompt
+
+If you want a more complete first pass, ask your AI assistant to audit your current workflow.
 
 Copy and paste this:
 
