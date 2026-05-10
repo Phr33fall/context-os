@@ -1,0 +1,61 @@
+<svg width="1400" height="860" viewBox="0 0 1400 860" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">ContextOS clean markdown handover mockup</title>
+  <desc id="desc">A safe mock screenshot showing a markdown handover in a demo knowledge vault with no private data.</desc>
+
+  <rect width="1400" height="860" rx="28" fill="#15171d"/>
+  <rect x="32" y="32" width="1336" height="796" rx="22" fill="#20242d" stroke="#3a4150" stroke-width="2"/>
+
+  <circle cx="70" cy="70" r="10" fill="#ff5f57"/>
+  <circle cx="102" cy="70" r="10" fill="#ffbd2e"/>
+  <circle cx="134" cy="70" r="10" fill="#28c840"/>
+
+  <path d="M352 110V828" stroke="#363d4a" stroke-width="2"/>
+  <text x="62" y="152" fill="#f3f6fb" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="760">ContextOS Demo Vault</text>
+  <text x="62" y="184" fill="#8d96a8" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15">safe public mockup</text>
+
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="19">
+    <text x="62" y="246" fill="#cfd6e4">▸ 00 - Inbox</text>
+    <text x="62" y="290" fill="#cfd6e4">▾ 01 - Projects</text>
+    <text x="88" y="330" fill="#909aac">demo-project</text>
+    <text x="62" y="374" fill="#cfd6e4">▸ 02 - Knowledge</text>
+    <text x="62" y="418" fill="#cfd6e4">▾ 03 - Sessions</text>
+    <text x="88" y="458" fill="#909aac">▾ 2026</text>
+    <text x="114" y="498" fill="#909aac">▾ 05</text>
+    <text x="140" y="540" fill="#f7f9fd" font-weight="650">demo-handover</text>
+    <text x="62" y="620" fill="#cfd6e4">▾ indexes</text>
+    <text x="88" y="660" fill="#909aac">session-index</text>
+    <text x="88" y="700" fill="#909aac">source-map</text>
+    <text x="62" y="744" fill="#cfd6e4">▸ templates</text>
+  </g>
+
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <text x="430" y="150" fill="#f7f9fd" font-size="36" font-weight="820">Session - Demo Project Handover</text>
+    <text x="432" y="190" fill="#9aa4b6" font-size="17">Source tool: AI assistant · Status: complete · Verified before handover</text>
+    <path d="M430 230H1280" stroke="#424b5b" stroke-width="2"/>
+
+    <text x="430" y="286" fill="#ffffff" font-size="24" font-weight="780">Summary</text>
+    <text x="430" y="324" fill="#d9e0ec" font-size="19">Reviewed the demo project, confirmed current state, and captured the next action.</text>
+
+    <text x="430" y="386" fill="#ffffff" font-size="24" font-weight="780">Decisions Made</text>
+    <text x="456" y="428" fill="#d9e0ec" font-size="19">• Project hub remains the live source of truth.</text>
+    <text x="456" y="464" fill="#d9e0ec" font-size="19">• Knowledge vault stores durable session memory.</text>
+    <text x="456" y="500" fill="#d9e0ec" font-size="19">• Git records changes and verification trail.</text>
+
+    <text x="430" y="562" fill="#ffffff" font-size="24" font-weight="780">Work Completed</text>
+    <text x="456" y="604" fill="#d9e0ec" font-size="19">• Updated the project README.</text>
+    <text x="456" y="640" fill="#d9e0ec" font-size="19">• Verified repo state and recorded open risks.</text>
+    <text x="456" y="676" fill="#d9e0ec" font-size="19">• Created a durable session handover.</text>
+
+    <text x="920" y="386" fill="#ffffff" font-size="24" font-weight="780">Verification</text>
+    <text x="946" y="428" fill="#d9e0ec" font-size="19">• Local checks passed.</text>
+    <text x="946" y="464" fill="#d9e0ec" font-size="19">• Git status clean.</text>
+    <text x="946" y="500" fill="#d9e0ec" font-size="19">• Handover indexed.</text>
+
+    <text x="920" y="562" fill="#ffffff" font-size="24" font-weight="780">Next Action</text>
+    <text x="946" y="604" fill="#d9e0ec" font-size="19">• Continue from the latest</text>
+    <text x="966" y="640" fill="#d9e0ec" font-size="19">verified handover.</text>
+
+    <path d="M430 728H1280" stroke="#424b5b" stroke-width="2"/>
+    <text x="430" y="765" fill="#8f98a9" font-size="16">Mock data only. No real vault names, local paths, or private project details.</text>
+  </g>
+</svg>
