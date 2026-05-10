@@ -143,6 +143,7 @@ ContextOS is designed around roles, sources of truth, handovers, boundaries, and
 
 | Path | Purpose |
 |---|---|
+| [`BOOTSTRAP.md`](BOOTSTRAP.md) | First-session setup prompt for starting from zero |
 | [`docs/architecture.md`](docs/architecture.md) | Role map, read sequence, and handoff flow |
 | [`docs/safety-model.md`](docs/safety-model.md) | Exclusion-first boundary model for restricted material |
 | [`INSTALL.md`](INSTALL.md) | Practical install and adaptation guide |
