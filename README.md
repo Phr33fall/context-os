@@ -25,7 +25,7 @@
 
 I didn't start by trying to build a system.
 
-A month prior, I was mostly using ChatGPT in a browser like most people. Then I started adding the tools that were supposed to make the work more powerful, reliable, and efficient.
+Only a month earlier, I was using ChatGPT in a browser/mobile app like most people. Then I started adding the tools that were supposed to make the work more powerful, reliable, and efficient.
 
 - I had Claude Desktop as my orchestrator and planner
 - Claude Code as my builder
