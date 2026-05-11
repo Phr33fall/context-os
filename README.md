@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/context-os-flow.png" alt="ContextOS architecture map showing orchestration, implementation, audit, live state, durable memory, handovers, and Git change history" width="900">
+  <img src="assets/context-os-control-tower.png" alt="ContextOS architecture map showing Claude Desktop, Claude Code, Codex, Notion, Obsidian, GitHub, Claude-mem, Graphify, local LLM fallback, evidence flow, and private vault boundaries" width="900">
 </p>
 
 <p align="center">
